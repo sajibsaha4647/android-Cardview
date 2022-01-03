@@ -63,7 +63,6 @@ public class Myadapter extends RecyclerView.Adapter<Myadapter.Myviewholder> {
 
             imageView = itemView.findViewById(R.id.imageid);
 
-
         }
     }
 }
