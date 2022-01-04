@@ -1,6 +1,7 @@
 package com.example.cardview;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView = findViewById(R.id.newRecycleview);
 
-        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false));
+        recyclerView.setLayoutManager(new GridLayoutManager(this, 3));
 
         arrayList = new ArrayList<ShowMyicon>();
 
